@@ -21,7 +21,7 @@ submitBtn.addEventListener('click', (event) => {
   
   email.addEventListener('input', () => {
       if (email.checkValidity()) {
-        email.style.border = '1px solid var(--clr-soft-red)';
+        email.style.border = '';
         errorText.classList.add('hidden');
         errorIcon.classList.add('hidden');
       }
